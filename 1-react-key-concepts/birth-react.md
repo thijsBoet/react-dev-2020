@@ -22,3 +22,9 @@ In 2013 React was released trying to fix these problems.
 - Build websites like Lego blocks               Components
 - One directional data flow                     State change -> Virtual DOM -> Change component
 - Only the UI, the rest is up to you            Only the View, Modular
+
+#### Great React Developers
+
+- Decide on Components
+- Decide the State and where it lives
+- What changes when the state changes
