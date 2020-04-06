@@ -2,20 +2,26 @@
 
 const myArray = [1,2,3,4,5];
 
+// map();
 console.log(myArray.map(el => Math.pow(el, 2)));
 console.log(myArray.map(el => el * 2));
 
+// filter();
 console.log(myArray.filter(el => el % 2));
 console.log(myArray.filter(el => el <= 5));
 
-// reduce();
+// find returns first true case
+console.log(myArray.find(el => el < 3));
 
-// find();
+// includes returns boolean
+console.log(myArray.includes(3));
+// 2nd argument searches from index ...
+console.log(myArray.includes(3, 4));
 
-myArray.find(el => el < 3);
-
-// includes();
-
+// reduce returns a single value;
+console.log(myArray.reduce((accumulator, currentElement) => 
+    accumulator += currentElement, 0)
+)
 
 
 // fun fun functions exercises to reinforce knowledge
